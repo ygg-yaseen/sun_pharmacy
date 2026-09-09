@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: process.env.GITHUB_ACTIONS ? '/sun_pharmacy/' : '/',
   server: {
     port: 5173,
     host: true

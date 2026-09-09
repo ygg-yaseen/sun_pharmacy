@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div className="min-h-screen bg-white text-slate-800 flex flex-col selection:bg-[#008f82] selection:text-white antialiased">
         
