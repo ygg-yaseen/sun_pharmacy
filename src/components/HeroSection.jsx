@@ -13,6 +13,7 @@ import {
   HeartHandshake
 } from 'lucide-react';
 import { BRAND_INFO, BRANCHES } from '../data/pharmacyData';
+import logoImg from '../assets/logo_sun_pharmacy.png';
 
 export default function HeroSection({ onOpenPrescription, onSelectBranch }) {
   const [selectedBranchQuick, setSelectedBranchQuick] = useState('al-barsha');
@@ -134,7 +135,7 @@ export default function HeroSection({ onOpenPrescription, onSelectBranch }) {
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#008f82] to-[#4da42b] p-0.5 shadow-md shadow-[#008f82]/20">
                   <div className="w-full h-full bg-white rounded-[14px] flex items-center justify-center p-1.5">
-                    <img src="/logo_sun_pharmacy.png" alt="Sun Pharmacy" className="max-h-full max-w-full object-contain" />
+                    <img src={logoImg} alt="Sun Pharmacy" className="max-h-full max-w-full object-contain" />
                   </div>
                 </div>
                 <div>

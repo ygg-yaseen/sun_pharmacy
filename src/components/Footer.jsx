@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { MessageCircle, ShieldCheck, MapPin, Phone, Mail } from 'lucide-react';
 import InstagramIcon from './InstagramIcon';
 import { BRAND_INFO, BRANCHES } from '../data/pharmacyData';
+import logoImg from '../assets/logo_sun_pharmacy.png';
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-3.5">
             <Link to="/" className="inline-block">
               <img 
-                src="/logo_sun_pharmacy.png" 
+                src={logoImg} 
                 alt="Sun Pharmacy UAE" 
                 className="h-10 w-auto object-contain"
               />

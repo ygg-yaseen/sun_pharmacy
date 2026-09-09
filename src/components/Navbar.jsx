@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, MessageCircle, MapPin, Phone } from 'lucide-react';
 import { BRAND_INFO } from '../data/pharmacyData';
+import logoImg from '../assets/logo_sun_pharmacy.png';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function Navbar() {
         {/* Brand Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           <img 
-            src="/logo_sun_pharmacy.png" 
+            src={logoImg} 
             alt="Sun Pharmacy UAE" 
             className="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-[1.01]"
           />
