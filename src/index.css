@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', Menlo, monospace;
+
+  --color-brand-teal: #008f82;
+  --color-brand-teal-hover: #00766b;
+  --color-brand-teal-dark: #073b35;
+  --color-brand-teal-tint: #ebf7f5;
+  --color-brand-teal-50: #f2faf9;
+
+  --color-brand-green: #58a738;
+  --color-brand-green-hover: #488f2c;
+  --color-brand-green-tint: #edf7ea;
+
+  --color-brand-slate: #0f172a;
+  --color-brand-ink: #16202e;
+  --color-brand-ink-soft: #4b5563;
+  --color-brand-border: #e2e8f0;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #1e293b;
+    background-color: #fbfcfc;
+    overflow-x: hidden;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+  }
+
+  .font-mono {
+    font-family: 'IBM Plex Mono', Menlo, monospace;
+  }
+}
+
+/* Eyebrow badge inspired by alnahdams.com */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'IBM Plex Mono', Menlo, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #00766b;
+  background: #e6f6f4;
+  border: 1px solid #bceae4;
+  padding: 5px 14px;
+  border-radius: 9999px;
+}
+
+/* Manifest Card (Certificate / Verified Clinical Credentials Box) */
+.manifest-box {
+  background: #ffffff;
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 14px 34px -16px rgba(0, 143, 130, 0.14);
+}
+
+/* Branch code header strip inspired by alnahdams.com */
+.branch-code-bar {
+  font-family: 'IBM Plex Mono', Menlo, monospace;
+  background: #083832;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Elegant card shadow */
+.shadow-corporate {
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 14px 30px -15px rgba(15, 23, 42, 0.08);
+}
+
+.shadow-corporate:hover {
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 20px 40px -15px rgba(0, 143, 130, 0.16);
+}
+
+/* Stat strip box with divider hairlines */
+.stat-strip-box {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background-color: #e2e8f0;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .stat-strip-box {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.stat-cell {
+  background-color: #ffffff;
+  padding: 22px 20px;
+  text-align: center;
+}
