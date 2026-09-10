@@ -118,16 +118,9 @@ export default function BranchLocator() {
                       </div>
                     </div>
 
-                    {branch.isOpen247 ? (
-                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-100 px-2.5 py-1 rounded-full whitespace-nowrap">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
-                        24/7 OPEN
-                      </span>
-                    ) : (
-                      <span className="text-[11px] font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
-                        Open Daily
-                      </span>
-                    )}
+                    <span className="text-[11px] font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
+                      Open Daily
+                    </span>
                   </div>
 
                   <p className="text-xs text-slate-600 mt-2.5 line-clamp-2 leading-relaxed">
@@ -178,16 +171,9 @@ export default function BranchLocator() {
                 </div>
 
                 <div className="flex sm:flex-col items-start sm:items-end gap-1">
-                  {selectedBranch.isOpen247 ? (
-                    <span className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-300 bg-emerald-950/80 border border-emerald-500/30 px-3 py-1 rounded-full">
-                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                      24/7 OPEN NOW
-                    </span>
-                  ) : (
-                    <span className="text-xs font-medium text-emerald-300 bg-emerald-950/60 border border-emerald-500/20 px-3 py-1 rounded-full">
-                      Open: {selectedBranch.hours}
-                    </span>
-                  )}
+                  <span className="text-xs font-medium text-emerald-300 bg-emerald-950/60 border border-emerald-500/20 px-3 py-1 rounded-full">
+                    {selectedBranch.hours}
+                  </span>
                   <span className="text-[11px] text-white/50">
                     Lead: {selectedBranch.manager}
                   </span>

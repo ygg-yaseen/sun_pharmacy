@@ -9,14 +9,14 @@ export const BRAND_INFO = {
   centralWhatsApp: "+971543076979",
   centralPhone: "054 307 6979",
   email: "care@sunpharmacy.ae",
-  workingHours: "24/7 Available at Select Locations",
+  workingHours: "Open Daily Across Dubai & Sharjah",
 };
 
 export const BRANCHES = [
   {
     id: "barsha-sun",
     name: "Barsha Sun Pharmacy",
-    legalName: "Barsha Sun Pharmacy L.L.C",
+    legalName: "Barsha Sun Pharmacy",
     arabicName: "صيدلية برشاء صن",
     emirate: "Dubai",
     area: "Al Barsha 1",
@@ -24,16 +24,16 @@ export const BRANCHES = [
     phone: "054 307 6979",
     displayPhone: "054 307 6979",
     whatsapp: "+971543076979",
-    hours: "24 Hours / 7 Days Open",
-    is247: true,
+    hours: "Open Daily",
+    is247: false,
     mapsUrl: "https://maps.google.com/?q=Al+Barsha+1+Dubai+Sun+Pharmacy",
     description: "Located in Al Barsha 1 near Mall of the Emirates, providing comprehensive prescription fulfillment, genuine dermo-cosmetics, and express home delivery.",
-    features: ["24/7 Licensed Pharmacist", "Dermo-Cosmetics Skincare", "Free Customer Parking", "Express Home Delivery"]
+    features: ["Licensed Clinical Pharmacist", "Dermo-Cosmetics Skincare", "Free Customer Parking", "Express Home Delivery"]
   },
   {
     id: "sun-ray",
     name: "Sun Ray Pharmacy",
-    legalName: "Sun Ray Pharmacy L.L.C",
+    legalName: "Sun Ray Pharmacy",
     arabicName: "صيدلية شعاع الشمس (صن راي)",
     emirate: "Dubai",
     area: "Al Ghurair, Deira",
@@ -49,9 +49,9 @@ export const BRANCHES = [
   },
   {
     id: "alfaraj",
-    name: "Alfaraj Pharmacy L.L.C",
-    legalName: "ALFARAJ PHARMACY L.L.C",
-    arabicName: "صيدلية الفرج ذ.م.م",
+    name: "Alfaraj Pharmacy",
+    legalName: "Alfaraj Pharmacy",
+    arabicName: "صيدلية الفرج",
     emirate: "Dubai",
     area: "Warsan 4",
     address: "Warsan 4, Dubai, UAE",
@@ -65,10 +65,10 @@ export const BRANCHES = [
     features: ["Curbside Pickup Service", "Chronic Disease Management", "Family Health Supplies", "Convenient Parking"]
   },
   {
-    id: "good-care",
-    name: "Good Care Pharmacy L.L.C",
-    legalName: "GOOD CARE PHARMACY L.L.C",
-    arabicName: "صيدلية جود كير ذ.م.م",
+    id: "good-care-muwailih",
+    name: "Good Care Pharmacy",
+    legalName: "Good Care Pharmacy",
+    arabicName: "صيدلية جود كير",
     emirate: "Sharjah",
     area: "Muwailih Commercial",
     address: "Muwailih Commercial, University City Road, Sharjah, UAE",
@@ -82,21 +82,21 @@ export const BRANCHES = [
     features: ["University Area Community Care", "Sports Nutrition & Hydration", "Dermatological Care", "Fast Delivery to Al Zahia"]
   },
   {
-    id: "care-point",
-    name: "Care Point Pharmacy",
-    legalName: "Care Point Pharmacy",
-    arabicName: "صيدلية كير بوينت",
+    id: "good-care-nahda",
+    name: "Good Care Pharmacy",
+    legalName: "Good Care Pharmacy",
+    arabicName: "صيدلية جود كير",
     emirate: "Sharjah",
     area: "Al Nahda",
     address: "Al Nahda, Near Sahara Centre & Dubai-Sharjah Border, Sharjah, UAE",
     phone: "+971 50 574 9545",
     displayPhone: "+971 50 574 9545",
     whatsapp: "+971505749545",
-    hours: "24 Hours / 7 Days Open",
-    is247: true,
+    hours: "Open Daily",
+    is247: false,
     mapsUrl: "https://maps.google.com/?q=Al+Nahda+Sharjah+Sahara+Centre",
-    description: "Our 24/7 healthcare hub in Al Nahda, Sharjah near Sahara Centre, dedicated to around-the-clock emergency prescription dispensation and family care.",
-    features: ["24/7 Emergency Counter", "Express Delivery to Al Nahda & Qusais", "Maternal & Child Nutrition", "Direct Insurance Billing"]
+    description: "Our healthcare hub in Al Nahda, Sharjah near Sahara Centre, dedicated to prescription dispensation, wellness, and family care.",
+    features: ["Dedicated Prescription Counter", "Express Delivery to Al Nahda & Qusais", "Maternal & Child Nutrition", "Direct Insurance Billing"]
   }
 ];
 
@@ -161,8 +161,8 @@ export const FAQS = [
     a: "You can send a photo of your prescription and insurance card directly via our WhatsApp (+971 54 307 6979) or contact your nearest branch directly. Our pharmacists will review your prescription and dispatch your order in temperature-controlled transport."
   },
   {
-    q: "Which branches are open 24 hours?",
-    a: "Barsha Sun Pharmacy in Al Barsha 1 (Dubai) and Care Point Pharmacy in Al Nahda (Sharjah) operate 24 hours a day, 7 days a week, with licensed pharmacists always on duty."
+    q: "What are the operating hours of your pharmacies?",
+    a: "Our branches across Dubai and Sharjah operate daily with extended morning and evening hours to serve your prescription, wellness, and medical skincare needs."
   },
   {
     q: "Do you accept health insurance?",
@@ -189,7 +189,7 @@ export const COMPANY_VALUES = [
   },
   {
     title: "Community Accessibility",
-    desc: "Positioned across strategic residential and commercial hubs in Dubai and Sharjah to deliver reliable, around-the-clock healthcare support."
+    desc: "Positioned across strategic residential and commercial hubs in Dubai and Sharjah to deliver reliable, dedicated healthcare support."
   },
   {
     title: "Empathy & Care",

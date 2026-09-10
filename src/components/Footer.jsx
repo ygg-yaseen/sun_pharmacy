@@ -98,11 +98,6 @@ export default function Footer() {
                 <div key={b.id} className="p-2.5 rounded-xl bg-white border border-slate-200/70">
                   <div className="flex items-center justify-between">
                     <span className="font-bold text-slate-900">{b.name}</span>
-                    {b.is247 && (
-                      <span className="text-[9px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.2 rounded">
-                        24/7
-                      </span>
-                    )}
                   </div>
                   <div className="text-[11px] text-slate-500 mt-0.5 truncate">{b.area}, {b.emirate}</div>
                   <a 
@@ -126,7 +121,7 @@ export default function Footer() {
           </div>
 
           <div>
-            © {new Date().getFullYear()} Sun Pharmacy LLC ({BRAND_INFO.domain}). All rights reserved.
+            © {new Date().getFullYear()} Sun Pharmacy ({BRAND_INFO.domain}). All rights reserved.
           </div>
         </div>
 

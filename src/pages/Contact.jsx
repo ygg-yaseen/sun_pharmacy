@@ -229,7 +229,7 @@ export default function Contact() {
                 <div key={b.id} className="rounded-2xl border border-slate-200 overflow-hidden shadow-xs bg-white">
                   <div className="branch-code-bar py-2 px-4 text-[11px]">
                     <span>{b.area}, {b.emirate}</span>
-                    {b.is247 && <span className="text-emerald-300 font-bold">24/7 OPEN</span>}
+                    <span className="text-emerald-300 font-bold">OPEN DAILY</span>
                   </div>
                   <div className="p-4 space-y-2">
                     <div className="flex items-center justify-between">

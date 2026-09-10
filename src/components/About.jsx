@@ -10,8 +10,8 @@ export default function About() {
     },
     {
       icon: Clock,
-      title: "Around-the-Clock Reliability",
-      desc: "Our flagship branches in Al Barsha (Dubai) and Al Nahda (Sharjah) remain open 24 hours a day, 7 days a week, ready for emergency patient needs."
+      title: "Daily Dedicated Accessibility",
+      desc: "Our retail branches across Dubai and Sharjah operate daily with extended hours, ready to support patient and family healthcare needs."
     },
     {
       icon: Award,

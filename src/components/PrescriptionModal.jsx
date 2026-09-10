@@ -175,7 +175,7 @@ export default function PrescriptionModal({ isOpen, onClose }) {
                   <option value="fastest">⚡ Nearest Branch (Fastest Delivery)</option>
                   {BRANCHES.map((b) => (
                     <option key={b.id} value={b.id}>
-                      {b.name} ({b.emirate}) {b.isOpen247 ? '• 24/7' : ''}
+                      {b.name} - {b.area} ({b.emirate})
                     </option>
                   ))}
                 </select>

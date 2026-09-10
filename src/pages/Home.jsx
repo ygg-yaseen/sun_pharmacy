@@ -104,15 +104,15 @@ export default function Home() {
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-slate-500">Network Entity:</span>
-                    <span className="font-bold text-slate-900">Sun Pharmacy Group LLC</span>
+                    <span className="font-bold text-slate-900">Sun Pharmacy Group</span>
                   </div>
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-slate-500">Retail Footprint:</span>
                     <span className="font-bold text-[#008f82]">Dubai & Sharjah Hubs</span>
                   </div>
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-slate-500">24/7 Care Centers:</span>
-                    <span className="font-bold text-slate-900">Barsha Sun & Care Point</span>
+                    <span className="text-slate-500">Accredited Care:</span>
+                    <span className="font-bold text-slate-900">DHA & MOHAP Licensed</span>
                   </div>
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-slate-500">Product Authenticity:</span>
@@ -156,8 +156,8 @@ export default function Home() {
             <div className="font-mono text-[11px] uppercase tracking-wider text-slate-500 mt-1">Prime Retail Locations</div>
           </div>
           <div className="stat-cell">
-            <div className="font-display text-2xl sm:text-3xl font-bold text-[#008f82]">24/7 Care</div>
-            <div className="font-mono text-[11px] uppercase tracking-wider text-slate-500 mt-1">Al Barsha & Al Nahda</div>
+            <div className="font-display text-2xl sm:text-3xl font-bold text-[#008f82]">Licensed Care</div>
+            <div className="font-mono text-[11px] uppercase tracking-wider text-slate-500 mt-1">DHA & MOHAP Pharmacists</div>
           </div>
           <div className="stat-cell">
             <div className="font-display text-2xl sm:text-3xl font-bold text-[#58a738]">100% Genuine</div>
@@ -247,15 +247,9 @@ export default function Home() {
                 {/* Dark Code Bar (alnahdams.com style) */}
                 <div className="branch-code-bar">
                   <span className="font-semibold uppercase tracking-wider">{branch.area}, {branch.emirate}</span>
-                  {branch.is247 ? (
-                    <span className="bg-emerald-500 text-slate-950 font-bold px-2 py-0.5 rounded text-[10px]">
-                      24/7 OPEN
-                    </span>
-                  ) : (
-                    <span className="text-emerald-300 text-[10px]">
-                      OPEN DAILY
-                    </span>
-                  )}
+                  <span className="text-emerald-300 text-[10px]">
+                    OPEN DAILY
+                  </span>
                 </div>
 
                 {/* Card Body */}

@@ -64,7 +64,7 @@ export default function Branches() {
               className="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-xs hover:border-[#008f82]/50 hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>
-                {/* Header with name and 24/7 status */}
+                {/* Header with branch info */}
                 <div className="flex items-start justify-between gap-2 pb-3 border-b border-slate-100">
                   <div>
                     <div className="flex items-center gap-2">
@@ -80,16 +80,9 @@ export default function Branches() {
                     </div>
                   </div>
 
-                  {branch.is247 ? (
-                    <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full whitespace-nowrap">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                      24/7 OPEN
-                    </span>
-                  ) : (
-                    <span className="text-[11px] font-medium text-slate-500 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-full whitespace-nowrap">
-                      Open Daily
-                    </span>
-                  )}
+                  <span className="text-[11px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full whitespace-nowrap">
+                    Open Daily
+                  </span>
                 </div>
 
                 {/* Address */}

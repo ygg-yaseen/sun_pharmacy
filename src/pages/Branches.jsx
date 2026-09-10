@@ -80,15 +80,9 @@ export default function Branches() {
                   <span className="font-semibold uppercase tracking-wider">
                     {branch.area}, {branch.emirate}
                   </span>
-                  {branch.is247 ? (
-                    <span className="bg-emerald-500 text-slate-950 font-bold px-2.5 py-0.5 rounded text-[10px]">
-                      24/7 OPEN
-                    </span>
-                  ) : (
-                    <span className="text-emerald-300 font-mono text-[10px]">
-                      OPEN DAILY
-                    </span>
-                  )}
+                  <span className="text-emerald-300 font-mono text-[10px]">
+                    OPEN DAILY
+                  </span>
                 </div>
 
                 {/* Card Content */}

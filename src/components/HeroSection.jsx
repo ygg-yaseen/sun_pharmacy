@@ -108,9 +108,9 @@ export default function HeroSection({ onOpenPrescription, onSelectBranch }) {
               </div>
 
               <div className="p-3 rounded-xl bg-white/70 border border-slate-100 shadow-xs">
-                <div className="text-xl sm:text-2xl font-black text-[#008f82]">24/7</div>
+                <div className="text-xl sm:text-2xl font-black text-[#008f82]">Daily</div>
                 <div className="text-xs font-semibold text-slate-800">Open Branches</div>
-                <div className="text-[11px] text-slate-500">Al Barsha & Al Nahda</div>
+                <div className="text-[11px] text-slate-500">Dubai & Sharjah</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white/70 border border-slate-100 shadow-xs">
@@ -161,12 +161,7 @@ export default function HeroSection({ onOpenPrescription, onSelectBranch }) {
                       }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="font-bold truncate">{b.neighborhood}</span>
-                        {b.isOpen247 && (
-                          <span className="text-[9px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.2 rounded">
-                            24/7
-                          </span>
-                        )}
+                        <span className="font-bold truncate">{b.area || b.neighborhood || b.name}</span>
                       </div>
                       <div className="text-[10px] text-slate-500 font-normal mt-0.5">
                         {b.emirate}

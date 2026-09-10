@@ -39,7 +39,7 @@ export default function About() {
               Sun Pharmacy (<span className="font-arabic font-medium text-emerald-800">صيدلية صن</span>) was established with a singular objective: to provide individuals and families in the UAE with transparent, professional, and accessible pharmaceutical care.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
-              With retail branches across high-density residential and commercial districts in Dubai (Al Barsha 1, Al Ghurair Deira, Warsan 4) and Sharjah (Al Nahda, Muwailih Commercial), we serve thousands of residents every week. From emergency 24/7 prescription dispensation to specialized pediatric formulas and high-grade dermo-cosmetics, we ensure every customer receives accredited guidance from licensed pharmacists.
+              With retail branches across high-density residential and commercial districts in Dubai (Al Barsha 1, Al Ghurair Deira, Warsan 4) and Sharjah (Al Nahda, Muwailih Commercial), we serve thousands of residents every week. From prompt prescription dispensation to specialized pediatric formulas and high-grade dermo-cosmetics, we ensure every customer receives accredited guidance from licensed pharmacists.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function About() {
             <div className="space-y-3 text-xs font-mono">
               <div className="flex justify-between py-1.5 border-b border-slate-100">
                 <span className="text-slate-500 font-sans">Entity:</span>
-                <span className="font-bold text-slate-900">Sun Pharmacy LLC</span>
+                <span className="font-bold text-slate-900">Sun Pharmacy</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-slate-100">
                 <span className="text-slate-500 font-sans">Licensing:</span>

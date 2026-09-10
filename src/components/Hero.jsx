@@ -53,8 +53,8 @@ export default function Hero() {
           </div>
 
           <div className="p-3">
-            <div className="text-2xl font-black text-slate-900">24/7 Care</div>
-            <div className="text-xs text-slate-500 mt-0.5">Al Barsha & Al Nahda</div>
+            <div className="text-2xl font-black text-slate-900">Licensed Care</div>
+            <div className="text-xs text-slate-500 mt-0.5">DHA & MOHAP Accredited</div>
           </div>
 
           <div className="p-3">
